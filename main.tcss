@@ -1,0 +1,47 @@
+Screen {
+    layout: vertical;
+}
+
+Input {
+    dock: bottom;
+}
+
+Header {
+    content-align: center middle;
+    height: 1.5;
+}
+
+.prompt_row {
+    margin-top: 1;
+}
+
+.bullet {
+    width: 5;
+}
+
+.prompt_row .bullet, .user_prompt {
+    margin: 1 0 1 0;
+}
+
+.user_prompt, .qwen_reply {
+    width: 1fr;
+}
+
+.user_prompt {
+    background: #222e4d;
+}
+
+.qwen_reply {
+    padding: 0;
+    margin: 0;
+}
+
+.tool_call {
+    color: grey;
+    text-style: italic;
+    margin-left: 2;
+}
+
+#qwen_response_init {
+    color: grey
+}
