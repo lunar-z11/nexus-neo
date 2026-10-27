@@ -1,6 +1,4 @@
----
-#Introducing Nexus Neo!
----
+# Introducing Nexus Neo
 
 Some work better in the terminal. Nexus isn't that.
 

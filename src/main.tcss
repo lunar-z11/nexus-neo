@@ -45,3 +45,35 @@ Header {
 #qwen_response_init {
     color: grey
 }
+
+ApproveWrite {
+    align: center middle;
+}
+
+#approve_box {
+    width: 80%;
+    height: auto;
+    max-height: 80%;
+    border: round #222e4d;
+    background: $surface;
+    padding: 1 2;
+}
+
+#approve_title {
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#approve_preview {
+    color: grey;
+    max-height: 24;
+}
+
+#approve_buttons {
+    margin-top: 1;
+    align-horizontal: right;
+}
+
+#approve_buttons Button {
+    margin-left: 2;
+}
